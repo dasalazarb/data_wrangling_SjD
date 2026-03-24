@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.parquet
+*.log
+reports/**/
+!reports/.gitkeep
+data/**/
+!data/raw/.gitkeep
+!data/staging/.gitkeep
+!data/curated/.gitkeep
+!data/analytic/.gitkeep
+!data/excluded/.gitkeep
