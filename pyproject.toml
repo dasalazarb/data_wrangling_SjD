@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clinical-data-pipeline"
+version = "0.1.0"
+description = "Modular clinical data wrangling and harmonization pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2",
+  "pandera>=0.22",
+  "pydantic-settings>=2.3",
+  "PyYAML>=6.0",
+  "duckdb>=1.1",
+  "pyarrow>=17.0",
+  "openpyxl>=3.1",
+  "rich>=13.7",
+]
+
+[project.optional-dependencies]
+enterprise = ["great-expectations>=1.2"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+clinical-pipeline = "data_pipeline.main:cli"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"
