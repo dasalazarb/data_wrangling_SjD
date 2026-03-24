@@ -1,0 +1,2 @@
+file_type: visits
+required_keys: [PATIENT_RECORD_NUMBER, VISIT_DATE]

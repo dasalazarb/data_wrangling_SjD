@@ -1,0 +1,7 @@
+rules:
+  - name: visit_not_before_dob
+    type: temporal
+    left_col: DOB
+    right_col: VISIT_DATE
+    operator: "<="
+    severity: ERROR
