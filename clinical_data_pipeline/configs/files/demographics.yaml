@@ -1,0 +1,6 @@
+file_type: demographics
+required_keys:
+  - PATIENT_RECORD_NUMBER
+  - SUBJECT_NUMBER
+  - SUBJECT_EXTERNAL_ID
+  - SITE_NAME
