@@ -13,7 +13,7 @@ Pipeline modular para data wrangling, validación, harmonización, integración 
 - **Observabilidad**: run_id, logging en consola/archivo, artefactos versionados.
 
 ## Estructura
-El repositorio ya expone directamente `configs/`, `data/`, `logs/`, `reports/`, `src/`, `tests/` y `sample_data/` en la raíz.
+El repositorio expone directamente `configs/`, `data/`, `logs/`, `reports/`, `data_pipeline/`, `tests/` y `sample_data/` en la raíz.
 
 ## Instalación
 ```bash
