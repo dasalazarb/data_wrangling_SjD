@@ -1,0 +1,3 @@
+thresholds:
+  max_null_ratio: 0.2
+  min_match_rate: 0.7

@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.parquet
+*.log
+
+# Generated reports
+reports/**/*.xlsx
+reports/**/*.json
+reports/**/*.parquet
+
+# Keep scaffold directories
+!data/raw/.gitkeep
+!data/staging/.gitkeep
+!data/curated/.gitkeep
+!data/analytic/.gitkeep
+!data/excluded/.gitkeep
+!logs/.gitkeep
+!reports/file_quality/.gitkeep
+!reports/merge_quality/.gitkeep
+!reports/manifests/.gitkeep
+!reports/summaries/.gitkeep
+!sample_data/raw/.gitkeep
+!sample_data/expected_outputs/.gitkeep
