@@ -1,0 +1,23 @@
+pipeline:
+  name: data_pipeline
+  fail_fast: true
+  codebook_path: sample_data/raw/codebook_final_harmonized_once_quince.xlsx
+  studies:
+    - study_id: 15D
+      file_name: CTDB Data Download 15D.xlsx
+      alias: study_15d
+    - study_id: 11D
+      file_name: CTDB Data Download 11D.xlsx
+      alias: study_11d
+  stages:
+    - discover
+    - validate_files
+    - validate_content
+    - transform
+    - harmonize
+    - integrate
+    - report
+  output_naming:
+    quality_report_prefix: "00_file_quality"
+    merge_report_prefix: "01_merge_quality"
+    summary_prefix: "02_final_summary"

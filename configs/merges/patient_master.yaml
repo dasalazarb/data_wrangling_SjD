@@ -1,0 +1,6 @@
+name: patient_master
+left: study_15d
+right: study_11d
+keys:
+  - PATIENT_RECORD_NUMBER
+how: outer
