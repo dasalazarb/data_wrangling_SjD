@@ -1,4 +1,4 @@
-from clinical_data_pipeline.transform.standardize import standardize_names
+from data_pipeline.transform.standardize import standardize_names
 
 
 def test_standardize_names(sample_df):

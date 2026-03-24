@@ -1,6 +1,6 @@
 import pandas as pd
 
-from clinical_data_pipeline.validation.content_checks import validate_columns, validate_required_fields
+from data_pipeline.validation.content_checks import validate_columns, validate_required_fields
 
 
 def test_validate_columns(sample_df):

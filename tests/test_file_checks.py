@@ -1,6 +1,6 @@
 import pytest
 
-from clinical_data_pipeline.validation.file_checks import validate_file_exists
+from data_pipeline.validation.file_checks import validate_file_exists
 
 
 def test_validate_file_exists(tmp_csv):

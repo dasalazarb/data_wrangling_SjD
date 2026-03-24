@@ -24,7 +24,7 @@ enterprise = ["great-expectations>=1.2"]
 dev = ["pytest>=8.0"]
 
 [project.scripts]
-clinical-pipeline = "clinical_data_pipeline.main:cli"
+clinical-pipeline = "data_pipeline.main:cli"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]

@@ -1,4 +1,4 @@
-from clinical_data_pipeline.transform.harmonize import harmonize_variables
+from data_pipeline.transform.harmonize import harmonize_variables
 
 
 def test_harmonize_variables(sample_df):

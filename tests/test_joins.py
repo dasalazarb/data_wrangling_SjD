@@ -1,5 +1,5 @@
-from clinical_data_pipeline.integrate.joins import perform_merge
-from clinical_data_pipeline.integrate.metrics import compute_merge_metrics
+from data_pipeline.integrate.joins import perform_merge
+from data_pipeline.integrate.metrics import compute_merge_metrics
 
 
 def test_perform_merge(sample_df):

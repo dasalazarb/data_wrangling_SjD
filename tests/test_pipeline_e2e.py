@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from clinical_data_pipeline.orchestrator import run_pipeline
+from data_pipeline.orchestrator import run_pipeline
 
 
 def test_pipeline_e2e(tmp_path, monkeypatch):

@@ -1,4 +1,4 @@
-from clinical_data_pipeline.io.readers import collect_file_metadata, read_dataset
+from data_pipeline.io.readers import collect_file_metadata, read_dataset
 
 
 def test_read_dataset_csv(tmp_csv):

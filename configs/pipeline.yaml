@@ -1,5 +1,5 @@
 pipeline:
-  name: clinical_data_pipeline
+  name: data_pipeline
   fail_fast: true
   codebook_path: sample_data/raw/codebook_final_harmonized_once_quince.xlsx
   studies:

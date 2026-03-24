@@ -29,7 +29,7 @@ pip install -e .[dev]
 
 ## Ejecución
 ```bash
-python -m clinical_data_pipeline.main run --config configs/pipeline.yaml
+python -m data_pipeline.main run --config configs/pipeline.yaml
 # o
 clinical-pipeline run --config configs/pipeline.yaml --verbose
 # ejecutar etapa puntual
